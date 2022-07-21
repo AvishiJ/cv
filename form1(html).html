@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        tr:hover {
+            background-color: coral;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+
+<body
+    style="background-image: url(https://img.freepik.com/free-vector/light-background-with-calm-soft-colors-spring-shades-color-soft-gradient-backgrounds-posters-banners-postcards-vector-illustration_589396-89.jpg?w=2000);background-size: cover;  background-repeat: no-repeat;">
+
+    <h1 style="text-align: center;">PRACTICAL 6</h1>
+
+    <div>
+        <div style="float: left; width: 45%; margin-left: 50px; ">
+            <h2>Sign up today to be part of my TEAM !!!!!</h2>
+            <form action="" >
+                <fieldset>
+                <label for="fname">NAME:</label><br>
+                <input type="text" name="fname" id="" style="box-sizing: border-box;height: 40px;width: 55%;"><br><br>
+                <label for="cont">CONTACT:</label><br><input type="number" name="cont" id=""
+                    style="height: 40px;width: 55%;"><br><br>
+                    <label for="mail">E-Mail:</label><br><input type="email" name="mail" id=""
+                    style="height: 40px;width: 55%;"><br><br>
+                     PASSWORD :    
+                    <input type="Password" id="pass" name="pass"> <br>     
+                    <br> <br>
+                    <label for="gender">Choose your Gender:</label>
+                    <select name="gender" id="">
+                        <option value="MALE" style="width: 40%;">SELECT</option>
+                        <option value="FEMALE">MALE</option>
+                        <option value="FEMALE">FEMALE</option>
+                        <option value="FEMALE">OTHERS</option>
+                    </select><br><br>
+                    <label for="check">Do You agree with Terms and Conditions of Friendship ?</label><input type="checkbox" name="check" id=""><br><br>
+                    <input type="reset" value="RESET" style="width: 10%;">
+                    <input type="submit" value="SUBMIT" style="width: 12%; margin-left: 10px;"><br><br>
+                    <label for="feedback">Rate Us!<br>
+                        <div style="border: 1px solid black; width: 29%;">
+                        1<input type="radio" name ="feedback" id = "">
+                        2<input type="radio" name ="feedback" id = "">
+                        3<input type="radio" name ="feedback" id = "">
+                        4<input type="radio" name ="feedback" id = "">
+                        5<input type="radio" name ="feedback" id = "">
+                    </div> <br> <br>
+                    <textarea style = "width: 40%; "name="feedback form" id="" cols="20" rows="10">How can we improve?</textarea>
+                </fieldset> 
+              </form>
+        </div>
+
+        <div style="float: right; width: 45%; margin-left: 50px; ">
+        <h2>Login Page</h2><br>    
+        <div class="login">    
+        <form id="login" method="get" action="login.php">  
+            <fieldset>
+                 
+            <label><b>User Name     
+            </b>    
+            </label>    
+            <input type="text" name="Uname" id="Uname" placeholder="Username">    
+            <br><br>    
+            <label><b>Password     
+            </b>    
+            </label>    
+            <input type="Password" name="Pass" id="Pass" placeholder="Password">    
+            <br><br>    
+            <input type="button" name="log" id="log" value="Log In Here">       
+            <br><br>    
+            <input type="checkbox" id="check">    
+            <span>Remember me</span>    
+            <br><br>    
+            Forgot <a href="#">Password</a>    
+            </fieldset>
+        </form>     
+    </div>
+ </div>
+    </div>
+    
+</body>
+
+</html>
